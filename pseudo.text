@@ -1,0 +1,33 @@
+
+
+# We need to read in all of the rows (looping through all of the rows - Day 2, Activity 8)
+
+
+total_profit_losses = 0
+total_months = 0
+
+# In the for loop, we need to get the profit/losses
+# If you want to store it into a variable
+    profit_lossses = row[1]
+
+    total_profit_losses = total_profit_losses + profit_losses
+    total_months = total_months + 1
+
+    if total_months >1:
+        change = profit_losses = last_profit_losses
+
+        sum_profit_losses = sum_profit_losses + change
+
+
+    last_proft_losses = row[1]
+    #The current profit loss becomes the last one for the next time.
+    #Problem is the first one doesn't have a previous one.
+    #Add in if statement
+
+
+# After the loop, write out our summary stuff
+print('Financial Analysis')
+print('------------------------')
+
+
+#Print out the average of profit_losses, which is sum_profit_losses
