@@ -52,7 +52,7 @@ print("Greatest Increase in Profits:", greatest_increase_month, '${:,.2f}'.forma
 print("Greatest Decrease in Profits:", greatest_decrease_month, '${:,.2f}'.format(greatest_decrease))
 
 #Reference text file with the intention of writing to it.
-pybank_output = open("pybank_ouput.txt", "w")
+pybank_output = open("pybank_output.txt", "w")
 
 pybank_output.write('Financial Analysis')
 pybank_output.write('\n------------------------')
